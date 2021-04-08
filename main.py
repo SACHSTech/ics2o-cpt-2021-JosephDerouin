@@ -242,7 +242,7 @@ if answer_18.lower() == "true" or answer_18.lower() == "t":
     print("Correct")
     x = x + 1
 else:
-    print("Incorrect, it is tue")  
+    print("Incorrect, it is true")  
 
 print(" ")
 print("Next Question")
