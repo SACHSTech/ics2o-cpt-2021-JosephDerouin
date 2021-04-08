@@ -1,251 +1,304 @@
-###Title###
-print(" ")
-print(" ")
-print("-------------------------- Multiple Choice Math and Computers Quiz -------------------------- ")
-print(" ")
-print(" ")
+# Defining Score variables 
+x = 0
+score = x
 
-###Rules###
-print("-------No Calculators------")
-print(" ")
-print("The first 15 questions are a simple multiple math test. Read the problem and choose A, B, C, or D. At the end it will tell you your score and %. After the math quiz, you will do a 10 question Computer Quiz. Good luck!")
-print(" ")
+# Disclaimer - in the code if you see 'print(" ")', that is so there is a puase in the output
 
+# Introduction
+print(" ")
+print("Welcome to Joseph's python quiz, made in VSCode! There are 20 questions, but 2 parts to the quiz...")
+print("The first 10 questions are computer related questions. Each question relates back to what we did in class, so hopefully you payed attention!")
+print("The next 10 questions are math related questions. No calculators are allowed!!!")
+print("At the end it will tell you your total grade, %, and wether you passed. Good luck!")
+print(" ")
+# Question One 
+print("What is the type of software called in a computer that is dedicated to viewing/browsing the internet?")
+answer_1 = input("a)Programming IDEs\nb)Web Browser\nc)MultiMedia\nd)Design\n:")
+if answer_1.lower() == "b" or answer_1.lower() == "Web Browser":
+    print("Correct")
+    x = x + 1   
+else:
+    print("Incorrect, it is called a Web Browser")
 
-###Question 1###
-d1a = input ("What is 1 + 1?: A) 2 B) 4 [A/B]? : ")
-if d1a == "A": 
-    print ("That is correct!")
-elif d1a == "B":
-    print ("That is incorrect.")
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 2###
-d1a = input ("What is 4 x 4?: A) 16 B) 44 [A/B]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is correct!")
+# Question Two
+print("What is the type of software called in a computer that provides the platform for all other software and hardware to operate on a computer?")
+answer_2 = input("a)Utility\nb)Computer\nc)Operating System\nd)Graphics Card\n:")
+if answer_2.lower() == "c" or answer_2.lower() == "Operating System":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it is called an Operating System")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 3###
-d1a = input ("What is 10 x 100?: A) 10000 B) 1000 [A/B]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is correct!")
+# Question Three
+print("True or False... a virus is a type of malware?")
+answer_3 = input(":")
+if answer_3.lower() == "true" or answer_3.lower() == "t":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect")
+  
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 4###
-d1a = input ("What is 16 - 40?: A) 24 B) -24 [A/B]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is correct!")
+# Question Four
+print("What does a graphics card do?")
+answer_4 = input("a)Accelerates the creation and rendering of images, video, and animations.\nb)Potato\nc)Makes Computer Faster\nd)Makes the computer brighter\n:")
+if answer_4.lower() == "a" or answer_4 == "Makes graphics look nicer":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, a graphics card accelerates the creation and rendering of images, video, and animations.")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 5###
-d1a = input ("What is 16 x 8?: A) 128 B) 130 C) 124 D) 120 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is correct!")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Five 
+print("True or False... Any mother bord is compatable with any CPU?")
+answer_5 = input(":")
+if answer_5.lower() == "false" or answer_5.lower() == "f":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, only certain brands of motherboards are compatable with certain brands of CPU's")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 6###
-d1a = input ("What is 80 x 5?: A) 136 B) 85 C) 456 D) 400 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is correct!")
+# Question Six
+print("What is the main difference of a computer and a laptop?")
+answer_6 = input("a)One is bigger\nb)One is very mobile while one is stationary\nc)One is better\nd)One is always plugged in\n:")
+if answer_6.lower() == "b" or answer_6.lower() == "One is very mobile while one is stationary":
+    print("Correct")
+    x = x + 1   
+else:
+    print("Incorrect, one is very mobile while one is stationary")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 7###
-d1a = input ("What is 90 - 3 x 4?: A) 80 B) 56 C) 78 D) 87 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is correct!")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Seven
+print("If you were to build a whole new PC, how many parts are required in order for the computer to succesfuly run?")
+answer_7 = input("a)3\nb)4\nc)5\nd)6\n:")
+if answer_7.lower() == "c" or answer_7.lower() == "5":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, you need a power supply, storage, motherboard, memory, CPU, video card. (Which is 6 in total)")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 8###
-d1a = input ("What is 100 x 5 - 6 / 2?: A) 497 B) 500 C) 456 D) 496 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is correct!")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Eight
+print("True or False... A laptop also requires all 5 of the main computer parts?")
+answer_8 = input(":")
+if answer_8.lower() == "true" or answer_8.lower() == "t":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect")  
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 9###
-d1a = input ("What is 89 - (6 x 4)?: A) 70 B) 56 C) 65 D) 76 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is correct!")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Nine
+print("Who invented the Apple-1?")
+answer_9 = input("a)Steve Jobs and Steve Wozniak\nb)Bill Gates\nc)Wayne Gretzky\nd)Lebron James\n:")
+if answer_9.lower() == "a" or answer_9 == "Steve Jobs and Steve Wozniak":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it was Steve Jobs and Steve Wozniak. It was the very first computer they built.")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 10###
-d1a = input ("What is 150 - (7 x 6) + 36? : A) 150 B) 129 C) 140 D) 144 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is correct!")
+# Question Ten 
+print("True or False... A CPU is an operating system?")
+answer_10 = input(":")
+if answer_10.lower() == "false" or answer_10.lower() == "f":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect")
+
+print(" ")
+print(" ")
+print("Next is Math Quiz")
+print(" ")
+print(" ")
+
+
+# Question Eleven
+print("What is 1 + 1?")
+answer_11 = input("a)1\nb)2\nc)3\nd)4\n:")
+if answer_11.lower() == "b" or answer_11.lower() == "2":
+    print("Correct")
+    x = x + 1   
+else:
+    print("Incorrect, it is 2")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Next Stage###
-print(" ")
-print("Algebra")
-print(" ")
+# Question Twelve
+print("What is 4 x 4?")
+answer_12 = input("a)12\nb)18\nc)16\nd)10\n:")
+if answer_12.lower() == "c" or answer_12.lower() == "16":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it is 16")
 
-###Question 11###
-d1a = input ("X = 4, What is 4X?: A) 4 B) 8 C) 16 D) 44 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is correct!")
-elif d1a == "D":
-    print ("That is incorrect.")
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 11###
-d1a = input ("X = 5, What is 6X + 16?: A) 30 B) 52 C) 36 D) 64 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is correct!")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Thirteen
+print("True or False... 16 - 40 is -24?")
+answer_13 = input(":")
+if answer_13.lower() == "true" or answer_13.lower() == "t":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect")
+  
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 12###
-d1a = input ("X = 2, What is 7X + (7 x 4 - 3) - 6?: A) 33 B) 36 C) 12 D) 49 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is correct!")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Fourteen
+print("What is 90 - 3 x 4?")
+answer_14 = input("a)78\nb)90\nc)85\nd)86\n:")
+if answer_14.lower() == "a" or answer_14 == "78":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it is 78")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 13###
-d1a = input ("X = 1, What is 5X x (7 + 4 - 2)2 ?: A) 14 B) 12 C) 16 D) 18 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is incorrect.")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is correct!")
+# Question Fifteen
+print("True or False... 100 x 5 - 6 / 2 is 456?")
+answer_15 = input(":")
+if answer_15.lower() == "false" or answer_15.lower() == "f":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it is 497")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 14###
-d1a = input ("X = 9, What is 3X + ((5 + 6 - 3)2 - 6) ?: A) 37 B) 89 C) 66 D) 34 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is correct!")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Sixteen
+print("what is 89 - (6 x 4)?")
+answer_16 = input("a)60\nb)65\nc)70\nd)75\n:")
+if answer_16.lower() == "b" or answer_16.lower() == "65":
+    print("Correct")
+    x = x + 1   
+else:
+    print("Incorrect, it is 65")
+
+print(" ")
 print("Next Question")
 print(" ")
 
-###Question 15###
-d1a = input ("X = 4, What is 6X + (9 x 7) ?: A) 87 B) 81 C) 86 D) 89 [A/B/C/D]? : ")
-if d1a == "A": 
-    print ("That is correct!")
-elif d1a == "B":
-    print ("That is incorrect.")
-elif d1a == "C":
-    print ("That is incorrect.")
-elif d1a == "D":
-    print ("That is incorrect.")
+# Question Seventeen
+print("X = 4, What is 4X?")
+answer_17 = input("a)10\nb)6\nc)16\nd)26\n:")
+if answer_17.lower() == "c" or answer_17.lower() == "16":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, you need a power supply, storage, motherboard, memory, CPU, video card. (Which is 6 in total)")
+
+print(" ")
 print("Next Question")
 print(" ")
 
+# Question Eighteen
+print("True or False... X = 2, is 7X + (7 x 4 - 3) - 6 = 33?")
+answer_18 = input(":")
+if answer_18.lower() == "true" or answer_18.lower() == "t":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it is tue")  
 
-###Computer Quiz###
 print(" ")
-print(" ")
-print(" ")
-print("---------------Computer Quiz Time-----------------")
-print(" ")
-print(" ")
+print("Next Question")
 print(" ")
 
+# Question Nineteen
+print("X = 9, What is 3X + ((5 + 6 - 3)2 - 6)?")
+answer_19 = input("a)37\nb)40\nc)12\nd)43\n:")
+if answer_9.lower() == "a" or answer_19 == "37":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it is 37")
 
-###Questions###
-question_prompts = [
-    "what color are apples?\n(a) Red/Greem\n(b) Purple\n(c) Orange\n\n",
-    "What color are bananas?\n(a) Teal\n(b) Magenta\n(c) Yellow\n\n",
-    "What color are strawberries?\n(a) Yellow\n(b) Red\n(c) Blue\n\n"
-]
+print(" ")
+print("Next Question")
+print(" ")
+
+# Question Twenty
+print("True or False... X = 4, is 6X + (9 x 7) = 86?")
+answer_20 = input(":")
+if answer_20.lower() == "false" or answer_20.lower() == "f":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, it is 87")
 
 
-questions = [
-    Question(question_prompts[0], "A"),
-    Question(question_prompts[1], "B"),
-    Question(question_prompts[2], "B"),
-]
+# Computer Quiz Score
+grade = float(x / 20) * 100
+print(x,"out of 20, that is",grade, "%")
 
-###Adding up correct Answers###
-def run_test(questions):
-    score = 0
-    for question in questions:
-        answer = input(question.prompt)
-        if answer == question.answer:
-            score += 1
-    print("You got " + str(score) + "/" + str(len(questions)) + correct)
+print(" ")
 
-run_test(question)
+# Turning variable 'grade' from float to integer
+grade = int(grade)
 
-class question:
-    def __init__(self, prompt, answer):
-        self.prompt = prompt
-        self.answer = answer
+# Tells you your grade and if you passed or not
+if grade <= 49 :
+    print("Sorry, you didnt pass...")
+elif grade >= 50 and grade <= 59 :
+    print("You passed, and got a D")
+elif grade >= 60 and grade <= 69 :
+    print("You passed, and got a C")
+elif grade >= 70 and grade <= 79 :
+    print("You passed, and got a B")
+elif grade >= 80 and grade <= 89 :
+    print("You passed, and got an A!")
+elif grade >= 90 and grade <= 100 :
+    print("You passed, and got a A+!")
+
+print(" ")
+
+## this is the answer rythem ##
+# b
+# c
+# true
+# a
+# false
