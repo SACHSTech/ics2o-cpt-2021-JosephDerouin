@@ -11,12 +11,13 @@ print("The first 10 questions are computer related questions. Each question rela
 print("The next 10 questions are math related questions. No calculators are allowed!!!")
 print("At the end it will tell you your total grade, %, and wether you passed. Good luck!")
 print(" ")
+
 # Question One 
 print("What is the type of software called in a computer that is dedicated to viewing/browsing the internet?")
 answer_1 = input("a)Programming IDEs\nb)Web Browser\nc)MultiMedia\nd)Design\n:")
 if answer_1.lower() == "b" or answer_1.lower() == "Web Browser":
     print("Correct")
-    x = x + 1   
+    x = x + 1
 else:
     print("Incorrect, it is called a Web Browser")
 
@@ -96,7 +97,7 @@ if answer_7.lower() == "c" or answer_7.lower() == "5":
     print("Correct")
     x = x + 1
 else:
-    print("Incorrect, you need a power supply, storage, motherboard, memory, CPU, video card. (Which is 6 in total)")
+    print("Incorrect, you need a storage, motherboard, memory, CPU, video card. (Which is 5 in total)")
 
 print(" ")
 print("Next Question")
@@ -282,7 +283,7 @@ grade = int(grade)
 
 # Tells you your grade and if you passed or not
 if grade <= 49 :
-    print("Sorry, you didnt pass...")
+    print("Sorry, you didnt pass... you got an F")
 elif grade >= 50 and grade <= 59 :
     print("You passed, and got a D")
 elif grade >= 60 and grade <= 69 :
